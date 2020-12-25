@@ -26,11 +26,3 @@ hystrix:
 mybatis:
   mapper-locations: mapper/*Mapper.xml
   type-aliases-package: com.dy.pojo.vo
-management:
-  endpoints:
-    web:
-      exposure:
-        include: refresh,health,info
-  endpoint:
-    health:
-      show-details: ALWAYS
